@@ -19,6 +19,6 @@
     echo "Top 5 Memory Consuming Processes:"
     ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head -n 6
  
-   echo "THIS IS BEVARSI MISHRA"
+   echo "THIS IS CPU Specs"
  
 } > "log1.txt"
